@@ -682,19 +682,24 @@ padding: 30px 65px;
 
   }
   .footer-banner-container{
-    height: 400px;
+    height: 500px;
     margin-top: 80px;
     padding: 30px;
-
   }
 
   
   .footer-banner-image{
     width: 65%;
-    height: 56%;
-    left: 35%;
-    top: 20%;
+    height: 45%;
+    left: 37%;
+    top: 18%;
   }
+
+  .left{
+    margin-left: -5px;
+  }
+
+
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
