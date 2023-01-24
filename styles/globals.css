@@ -699,6 +699,13 @@ padding: 30px 65px;
     margin-left: -5px;
   }
 
+  .cart-heading {
+    margin-left: 30px;
+  }
+
+  .empty-cart {
+    margin: 0 auto;
+  }
 
   .banner-desc .left h3{
     font-weight: 900;
@@ -754,8 +761,12 @@ padding: 30px 65px;
   }
   .product-container{
     margin-top: 10px;
+    margin-left: 20px;
   }
 
+  .total {
+    margin-left: 20px;
+  }
   .products-container{
     gap: 20px;
   }
