@@ -181,6 +181,7 @@ h1 {
 .hero-banner-container h3{
   font-size: 4rem;
   margin-top: 4px;
+  margin-left: -10px;
 }
 .hero-banner-container h1{
   color: white;
@@ -704,6 +705,9 @@ h1 {
   margin: 0 auto;
 }
 
+.beats-solo {
+  margin-left: -10px;
+}
 
 
 @media screen and (max-width:800px) {
@@ -781,7 +785,7 @@ h1 {
     font-size: 40px;
   }
   .hero-banner-container button{
-    margin-top: 90px;
+    margin-top: 120px;
     z-index: 10000;
   }
   .desc{
