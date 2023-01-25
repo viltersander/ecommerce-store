@@ -828,7 +828,7 @@ padding: 30px 65px;
   font-size: 20px;
 }
 .track {
-  animation: marquee 15s linear infinite;
+  animation: marquee 20s linear infinite;
   width: 550%;
 }
 .success-wrapper, .cancel-wrapper{
