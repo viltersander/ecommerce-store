@@ -796,7 +796,7 @@ h1 {
     height: 350px;
   }
   .cart-container{
-    width: 375px;
+    width: 100%;
     padding: 4px;
   }
   .cart-heading{
