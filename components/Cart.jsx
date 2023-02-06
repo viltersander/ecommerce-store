@@ -53,7 +53,7 @@ const Cart = () => {
               <button
               type='button'
               onClick={() => setShowCart(false)}
-              className='btn'>
+              className='btn-continue btn'>
                 Continue Shopping
               </button>
             </Link>
