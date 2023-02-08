@@ -32,12 +32,12 @@ const Navbar = () => {
           onClick={() => setToggle((prev) => !prev)}
           className="cursor-pointer mr-2 opacity-60"
          /> 
-          <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute bg-white top-[55px] right-0 w-full navbar`}
+          <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute bg-white top-[55px] right-0 w-full navbar `}
           >
             <ul className="list-none flex flex-col justify-end items-center flex-1" onClick={() => setToggle((prev) => !prev)}> 
-              <Link className="mb-2 opacity-60 hover:opacity-100" href="/">Home</Link>
-              <Link className="mb-2 opacity-60 hover:opacity-100" href="/#products-link">Products</Link>
-              <Link className="mb-2 opacity-60 hover:opacity-100" href="/contact">Contact</Link>
+              <Link className="mb-5 opacity-60 hover:opacity-100" href="/">Home</Link>
+              <Link className="mb-5 opacity-60 hover:opacity-100" href="/#products-link">Products</Link>
+              <Link className=" opacity-60 hover:opacity-100" href="/contact">Contact</Link>
             </ul> 
           </div>
       </div>
