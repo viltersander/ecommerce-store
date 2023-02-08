@@ -334,6 +334,7 @@ h1 {
   align-items: center;
   gap: 10px;
   justify-content: center;
+  box-shadow: 0px -5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
 .footer-container .icons{
@@ -482,7 +483,6 @@ h1 {
   margin: 40px;
   margin-top: 60px;
   color: #324d67;
-
 }
 
 .product-detail-image{
@@ -720,6 +720,10 @@ header {
   padding: 4px;
 }
 
+.navbar {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 
 @media screen and (max-width:800px) {
   .hero-banner-container{
@@ -845,6 +849,7 @@ header {
   }
   .product-detail-container{
     margin: 0 auto;
+    margin-top: 3px;
   }
 
   .product-detail-desc {
